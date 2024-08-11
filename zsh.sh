@@ -68,7 +68,7 @@ ZSH_CUSTOM=$HOME/.bash/zsh_custom
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   history
-  git
+  # git
   vscode
 
   nvm
@@ -80,8 +80,6 @@ plugins=(
   ruby
   rails
   bundler
-
-  pyenv
 
   docker
   docker-compose

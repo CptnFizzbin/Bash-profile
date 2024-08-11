@@ -39,12 +39,9 @@ ZSH_THEME_RUBY_PROMPT_SUFFIX="›%f"
 ZSH_THEME_NVM_PROMPT_PREFIX="%F{green}‹"
 ZSH_THEME_NVM_PROMPT_SUFFIX="›%f"
 
-ZSH_THEME_PYENV_PROMPT_PREFIX="%F{yellow}‹"
-ZSH_THEME_PYENV_PROMPT_SUFFIX="›%f"
-
 ZSH_THEME_GIT_PROMPT_PREFIX="%F{cyan}‹"
 ZSH_THEME_GIT_PROMPT_SUFFIX="›%f"
 
-PROMPT="╭─${user_host} ${current_dir} \$(ruby_prompt_info) \$(nvm_prompt_info) \$(pyenv_prompt_info) \$(git_prompt_info) ${return_code}
+PROMPT="╭─${user_host} ${current_dir} \$(ruby_prompt_info) \$(nvm_prompt_info) \$(git_prompt_info) ${return_code}
 ╰─$PR_PROMPT "
 }
